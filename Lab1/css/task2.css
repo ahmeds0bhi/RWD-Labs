@@ -1,0 +1,12 @@
+body{
+    height: 97vh;
+    outline: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 0.3125rem solid black;
+    padding: 3rem;
+}

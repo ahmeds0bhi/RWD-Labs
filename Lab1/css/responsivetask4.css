@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    section {
+      transform: rotate(60deg);
+      transition: transform 0.5s ease, background-color 0.5s ease;
+    }
+    body,section{
+        background-color: brown;
+    }
+    header,footer,main,aside,.as{
+        background-color: rgb(240, 231, 224);
+        color:black
+    }
+}

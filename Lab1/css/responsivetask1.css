@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    nav,main {
+        flex-direction: column;
+    }
+   section{
+        min-height: 110px;
+    }
+}
+

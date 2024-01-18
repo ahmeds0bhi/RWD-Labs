@@ -1,0 +1,33 @@
+nav {
+    background-color: brown;
+    display: flex;
+    justify-content:space-around;
+}
+
+nav>div{
+    font-size: 1.25rem;
+    padding: 10px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    border: 3px solid black;
+     display: flex; 
+     flex-direction: column; 
+    margin: 1%; 
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.left-side p {
+    flex-grow: 1;
+}
+
+footer{
+    background-color: rgb(131, 130, 130);
+}
